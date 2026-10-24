@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winforms-app", "winforms-app\winforms-app.csproj", "{1C9CD3A9-379C-4FA8-AA9E-87EDB430517C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{A63D46BA-71FE-4047-9754-73B69AE1FE2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{9FB196FF-CCE8-42D5-91D4-DB0D1E6A468B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C9CD3A9-379C-4FA8-AA9E-87EDB430517C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9CD3A9-379C-4FA8-AA9E-87EDB430517C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9CD3A9-379C-4FA8-AA9E-87EDB430517C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9CD3A9-379C-4FA8-AA9E-87EDB430517C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63D46BA-71FE-4047-9754-73B69AE1FE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63D46BA-71FE-4047-9754-73B69AE1FE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63D46BA-71FE-4047-9754-73B69AE1FE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63D46BA-71FE-4047-9754-73B69AE1FE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB196FF-CCE8-42D5-91D4-DB0D1E6A468B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB196FF-CCE8-42D5-91D4-DB0D1E6A468B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB196FF-CCE8-42D5-91D4-DB0D1E6A468B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB196FF-CCE8-42D5-91D4-DB0D1E6A468B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3CADE2C-29BF-4BF2-9122-099B341D5702}
+	EndGlobalSection
+EndGlobal
