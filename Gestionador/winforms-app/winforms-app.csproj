@@ -99,6 +99,13 @@
       <Project>{a63d46ba-71fe-4047-9754-73b69ae1fe2a}</Project>
       <Name>dominio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\negocio\negocio.csproj">
+      <Project>{9fb196ff-cce8-42d5-91d4-db0d1e6a468b}</Project>
+      <Name>negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

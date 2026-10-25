@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using negocio; 
+
 
 namespace winforms_app
 {
@@ -16,5 +18,13 @@ namespace winforms_app
         {
             InitializeComponent();
         }
+
+        private void frmLista_Load(object sender, EventArgs e)
+        {
+            ArticuloNegocio aNegocio = new ArticuloNegocio();
+            dgvArticuloLista.DataSource = aNegocio.listar(); 
+        }
+
+
     }
 }
